@@ -678,6 +678,7 @@ li {
   width: 528px;
   min-height: 581px;
   background-color: #ffffff;
+  border-radius: 4px;
 }
 
 .close-btn {
@@ -701,12 +702,6 @@ li {
   width: 18px;
   height: 18px;
   fill: #000000;
-  /*position: absolute;
-  left: 22.22%;
-  right: 16.67%;
-  top: 16.67%;
-  bottom: 22.22%;
-  background: #000000;*/
 }
 
 /*=======end backdrop =======*/
