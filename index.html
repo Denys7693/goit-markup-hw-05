@@ -397,6 +397,44 @@
                     <use href="./images/sprite.svg#icon-close-black"></use>
                 </svg>
             </button>
+
+            <form action="#" class="modal_form">
+                <h3 class="form-h3">Оставьте свои данные, мы вам перезвоним</h3>
+                <label for="" class="modal_form-field">
+                    Имя
+                    <span class="modal_form-input-wrapper">
+                        <input type="text" name="user-name" class="modal_form-input">
+                        <svg class="modal_form-icon">
+                            <use href="./images/sprite.svg#icon-person"></use>
+                        </svg>
+                    </span>                    
+                </label>
+                <label for="" class="modal_form-field">
+                    Телефон
+                    <span class="modal_form-input-wrapper">
+                        <input type="tel" name="user-tel" class="modal_form-input">
+                        <svg class="modal_form-icon">
+                            <use href="./images/sprite.svg#icon-phone"></use>
+                        </svg>
+                    </span>                    
+                </label>
+                <label for="" class="modal_form-field">
+                    Почта
+                    <span class="modal_form-input-wrapper">
+                        <input type="email" name="user-email" class="modal_form-input">
+                        <svg class="modal_form-icon">
+                            <use href="./images/sprite.svg#icon-email"></use>
+                        </svg>
+                    </span>                    
+                </label>
+                <label for="" class="modal_form-field">
+                    Комментарий
+                    <textarea class="modal_form-message" name="user-message" placeholder="Введите текст" id=""></textarea>
+                </label>
+                <input id="user-policy" type="checkbox" name="user-policy" value="accept-policy" class="modal-form-policy visually-hidden">
+                <label for="user-policy" class="modal_form-policy-text">Соглашаюсь с рассылкой и принимаю <a href="#">Условия договора</a></label>
+                <button type="submit" class="modal_form-btn">Отправить</button>
+            </form>
         </div>
     </div>  
     <script src="./js/modal.js"></script>
