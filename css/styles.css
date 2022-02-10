@@ -132,6 +132,7 @@ img {
 .address-icon-smartphone:focus {
   color: var(--blue-color);
   fill: currentColor;
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .address-icon-envelope {
   width: 16px;
@@ -192,6 +193,7 @@ img {
 .hero-btn:hover,
 .hero-btn:focus {
   background-color: #188ce8;
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* ----------section effective-solutions---------- */
@@ -368,6 +370,7 @@ img {
 .social-list-link:focus {
   background-color: #2196f3;
   color: #fff;
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .social-list-link:hover .social-list-icon {
   fill: #fff;
@@ -430,6 +433,7 @@ img {
 .clients-links:focus {
   color: #2196f3;
   border: 1px solid #2196f3;
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .regcus-list-icon {
@@ -478,6 +482,7 @@ img {
 .contakt-mail-tel:hover,
 .contakt-mail-tel:focus {
   color: var(--white-color);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* ----------contact-welcome---------- */
