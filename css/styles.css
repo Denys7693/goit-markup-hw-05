@@ -69,6 +69,7 @@ img {
   padding-top: 32px;
   padding-bottom: 32px;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: border, color;
 }
 
 .link-aktive {
@@ -524,6 +525,7 @@ img {
   height: 44px;
   padding: 0;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: background-color;
   border: none;
   border-radius: 50%;
   color: #ffffff;
