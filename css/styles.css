@@ -69,7 +69,7 @@ img {
   padding-top: 32px;
   padding-bottom: 32px;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition-property: border, color;
+  transition-property: color;
 }
 
 .link-aktive {
@@ -362,7 +362,7 @@ img {
   cursor: pointer;
   color: #afb1b8;
   background-color: #fff;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .social-list-icon {
   width: 20px;
@@ -428,7 +428,8 @@ img {
   border-radius: 4px;
   color: #afb1b8;
   background-color: #ffffff;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .clients-links:hover,
